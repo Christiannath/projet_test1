@@ -1,0 +1,35 @@
+body{
+    background: repeating-linear-gradient(to top left, white ,lightblue 5px );
+}
+#blog{
+    width: 1200;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.entete{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+.connexion{
+    width: 350px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: midnightblue;
+    padding: 4px;
+    border-radius: 5px;
+}
+nav li{
+    display: inline-block;
+    margin: 10px;
+    font-family: Tahoma, Verdana, Arial;
+}
+nav{
+    background-color: midnightblue;
+}
